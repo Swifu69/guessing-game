@@ -1,11 +1,12 @@
 body{
-    background-color: blue;
+    background-color: white;
 }
 
 #contIndex{
-    background-color: yellow;
-    border: 3em solid; 
-    border-radius: 30px;
+    background-color: rgba(224, 235, 125, 0.822);
+    border: 1em solid;
+    border-color: rgb(102, 214, 248); 
+    border-radius: 20px;
     height: 300px;
     width: 850px;
     margin: auto;
@@ -13,7 +14,7 @@ body{
 }
 
 p{
-    color: blue;
+    color: rgb(194, 29, 183);
     font-weight: 300;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -21,11 +22,36 @@ p{
 
 #userCharacter{
     width: 100px;
-    margin: 30px auto;
+    margin: 25px auto;
+    position: relative;
 }
 
 #btn{
     margin: 25px auto auto 5px;
     border-radius: 3px;
     font-style: italic;
+    position: absolute;
+}
+.back-music{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.back-music{
+    font-size: 18px;
+    color: rgb(194, 29, 183);
+    font-weight: 400;
+    margin-right: 15px;
+}#music-txt{
+    margin-bottom: 120pxx;
+}
+
+
+#playIcon{
+    width: 40px;
+    cursor: pointer;
+    margin-bottom: 40px;
 }
