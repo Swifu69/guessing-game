@@ -1,0 +1,31 @@
+body{
+    background-color: blue;
+}
+
+#contIndex{
+    background-color: yellow;
+    border: 3em solid; 
+    border-radius: 30px;
+    height: 300px;
+    width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#userCharacter{
+    width: 100px;
+    margin: 30px auto;
+}
+
+#btn{
+    margin: 25px auto auto 5px;
+    border-radius: 3px;
+    font-style: italic;
+}
