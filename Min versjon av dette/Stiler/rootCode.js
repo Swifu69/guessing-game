@@ -4,7 +4,9 @@ let answer = document.getElementById (`outputAlert`)
 
 let numberValue = [Math.floor(Math.random() *100)]
 
-btn.addEventListener(`click`, function(){
+    
+    document.querySelector("form").addEventListener("submit", e=> {
+    e.preventDefault();
     let input = document.getElementById(`userCharacter`).value;
     if (input == numberValue){
     answer.innerHTML = `Congratulations, you guessed the right number that was ${numberValue}`
@@ -17,4 +19,5 @@ if (input > numberValue){
     answer.innerHTML = "Too high!"
     document.getElementById (`outputAlert`).style.color=("red")
 };
-});
+})
+
